@@ -26,6 +26,64 @@ body {
     font-weight: bold;
 }
 
-.all_pokemon_container .bulbasaur_container {
-    background-color: lightgreen;
+.all_pokemon_container {
+    text-align: center;
+    align-content: center;
+  }
+
+.all_pokemon_container #bulbasaur_container .pokemon_names {
+    background-color: mediumaquamarine;
+    border: 4px solid lightgreen;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Courier New';
+    text-align: start;
+}
+
+.all_pokemon_container #bulbasaur_container .pokemon_description {
+    background-color: mediumaquamarine;
+    border: 4px solid lightgreen;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Courier New';
+    font-weight: bold;
+    text-align: start;
+}
+
+.all_pokemon_container #charmander_container .pokemon_names {
+    background-color: orange;
+    border: 4px solid yellow;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Courier New';
+    text-align: start;
+}
+
+.all_pokemon_container #charmander_container .pokemon_description {
+    background-color: orange;
+    border: 4px solid yellow;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Courier New';
+    font-weight: bold;
+    text-align: start;
+}
+
+.all_pokemon_container #squirtle_container .pokemon_names {
+    background-color: lightskyblue;
+    border: 4px solid wheat ;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Courier New';
+    text-align: start;
+}
+
+.all_pokemon_container #squirtle_container .pokemon_description {
+    background-color: lightskyblue;
+    border: 4px solid wheat;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Courier New';
+    font-weight: bold;
+    text-align: start;
 }
