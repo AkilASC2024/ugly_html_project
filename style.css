@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+
+.introduction h1 {
+  text-align: center;  
+  background-color: blue;
+  color: yellow;
+  border-radius: 10px;
+}
+
+.introduction h2 {
+    color: white;
+    font-family: 'Courier New';
+}
+
+.introduction #starters_image_div {
+  text-align: center;
+  align-content: center;
+  border: 4px solid blue;
+}
+
+.list {
+    color: white;
+    font-family: 'Courier New';
+    font-weight: bold;
+}
+
+.all_pokemon_container .bulbasaur_container {
+    background-color: lightgreen;
+}
